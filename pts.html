@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>هدى الإسلام</title>
+  <link rel="icon" href="3.1.png" type="image/png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@400;700&display=swap">
+  <link rel="stylesheet" href="pts.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <img src="3.png" alt="هدى الإسلام" class="logo">
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="pts.html">Prayer Times</a></li>
+          <li><a href="ahadith.html">Ahadith</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="img1">
+    <img src="5.webp" alt="Background Image">
+    <div class="overlay">
+      <h1>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
+      <h1>Prayer Times & Islamic Calendar</h1>
+      <h2>Algeria,Algiers,march2025 / ramadan2025</h2>
+      <div class="container">
+        <!-- الإمساك على اليمين -->
+        <div class="prayer-time" style="text-align: right;">
+            <strong>Imsak Time:</strong>
+            <span id="imsak-time"></span>
+            <div class="countdown" id="imsak-countdown">00:00:00</div>
+        </div>
+    
+        <!-- الإفطار على اليسار -->
+        <div class="prayer-time" style="text-align: left;">
+            <strong>Iftar Time:</strong>
+            <span id="iftar-time"></span>
+            <div class="countdown" id="iftar-countdown">00:00:00</div>
+        </div>
+    </div>
+    
+      <p>Table of prayer times:</p>
+      <div class="prayer-times" id="prayerTimes"></div>
+    </div>
+  </div>
+
+  <footer>
+    <h5>&copy; 2025 Huda Islam. All rights reserved.</h5>
+  </footer>
+
+  <script src="pts.js"></script>
+</body>
+
+</html>
